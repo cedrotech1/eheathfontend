@@ -21,33 +21,151 @@ const Contact = () => {
     </div>
 </section>
 
-<section class="story">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <img loading="lazy" src="asset/images/services/service-one.jpg" class="responsive" alt="story"/>
-      </div>
-      <div class="col-lg-6">
-        <div class="story-content">
-          <h2>Our Story</h2>
-          <h5 class="tagline">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, minima. Nemo impedit fuga nostrum expedita sint dicta ullam quam et harum velit saepe"</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus totam ducimus est vero, officiis,
-              placeat optio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias aliquam nesciunt fugit optio
-              illum aut. consectetur adipisicing elit. Neque assumenda, est quam perferendis
-              expedita autem?</p>
-            <h6>Mission</h6>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam nihil dolorum beatae consequatur mollitia
-              iure?</p>
-            <h6>Vision</h6>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda consectetur adipisci, voluptatum
-              dolores nostrum omnis.</p>
+
+{/* <!-- Promo Video --> */}
+
+
+
+
+{/* <!-- Contact Section --> */}
+
+
+
+<section class="service-tab-section section">
+  <div class="outer-box clearfix">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          {/* <!-- Nav tabs --> */}
+          <div class="tabs mb-5">
+            <ul class="nav nav-tabs justify-content-center" id="aboutTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="dormitory-tab" data-toggle="tab" href="#dormitory" role="tab" aria-controls="dormitory" aria-selected="true">our story</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="orthopedic-tab" data-toggle="tab" href="#orthopedic" role="tab" aria-controls="orthopedic" aria-selected="false">vision</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="sonogram-tab" data-toggle="tab" href="#sonogram" role="tab" aria-controls="sonogram" aria-selected="false">Mission</a>
+              </li>
+              {/* <li class="nav-item" role="presentation">
+                <a class="nav-link" id="x-ray-tab" data-toggle="tab" href="#x-ray" role="tab" aria-controls="x-ray" aria-selected="false">x-ray</a>
+              </li>
+              <li class="nav-item" role="presentation">
+                <a class="nav-link" id="diagnostic-tab" data-toggle="tab" href="#diagnostic" role="tab" aria-controls="diagnostic" aria-selected="false">diagnostic</a>
+              </li> */}
+            </ul>
+          </div>
+          {/* <!--Start single tab content--> */}
+          <div class="tab-content" id="aboutTab">
+            <div class="service-box tab-pane fade show active" id="dormitory">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img loading="lazy" class="img-fluid" src="asset/images/services/service-one.jpg" alt="service-image"/>
+                </div>
+                <div class="col-lg-6">
+                  <div class="contents">
+                    <div class="section-title">
+                      <h3>Our Story</h3>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="story-content">
+                        {/* <h2></h2> */}
+                        <h5 class="tagline">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, minima.
+                        Nemo impedit fuga nostrum expedita sint dicta ullam quam et harum velit saepe"</h5>
+                          <p>Its web application which will help patients  to access hospitals information 
+                            and his/her treatment information across the country but only where he/she uses
+                             their services(treatment).
+                             <br/> <br/>
+                             In a breathly patient will have to view his information and view a  historic(report) of hospital name,dates, tests,medicines he made and the doctor who made that operation.
+                              </p>
+
+
+                      </div>
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <!--End single tab content-->
+            <!--Start single tab content--> */}
+            <div class="service-box tab-pane fade" id="orthopedic">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img loading="lazy" class="img-fluid" src="asset/images/services/service-two.jpg" alt="service-image" style={{height:'11cm'}} />
+                </div>
+                <div class="col-lg-6">
+                  <div class="contents">
+                    <div class="section-title">
+                      <h3>vission</h3>
+                    </div>
+                    <div class="text">
+                    <h6></h6>
+                          <p>     
+
+                          It is envisioned that, “By 2022, eHealth will enable widespread access to health care services,
+                          health information, and securely share and exchange client's information in support to a safer, 
+                          quality health care, more equitable and responsive health system for all the Rwandan people by 
+                          transforming the way information<br/>
+
+                          <p></p>
+
+                          </p>
+                      
+                      
+                      </div>
+                    
+                    <a href="services.html" class="btn btn-style-one">Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <!--End single tab content--> */}
+            {/* <!--Start single tab content--> */}
+            <div class="service-box tab-pane fade" id="sonogram">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img loading="lazy" class="img-fluid" src="asset/images/services/service-three.jpg" alt="service-image" style={{height:'11cm'}}/>
+                </div>
+                <div class="col-lg-6">
+                  <div class="contents">
+                    <div class="section-title">
+                      <h3>Mision</h3>
+                    </div>
+                    <div class="text">
+                      <p> </p>
+                      <p>Through our leading technology, far-reaching partnerships, consumer advocacy and industry expertise,
+                         we work tirelessly to be the online standard for finding, comparing and buying individual, family,
+                          small business and Medicare health insurance. Our customer care specialists and licensed agents are 
+                          available to provide personalized assistance 24 hours a day, 7 days a week over the internet, telephone,
+                           email, fax or online chat. When private insurance is not an option, we can connect people
+                         to public assistance programs to help them find the care they need. Anyone in need of access 
+                         to health coverage has an ally in eHealth.</p>
+                         <br/>
+                    </div>
+                    
+                    <a href="services.html" class="btn btn-style-one" style={{backgroungColor:'whitesmoke'}}>Read more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* <!--End single tab content--> */}
+            {/* <!--Start single tab content--> */}
+          
+            {/* <!--End single tab content--> */}
+            {/* <!--Start single tab content--> */}
+         
+            {/* <!--End single tab content--> */}
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-{/* <!-- Promo Video --> */}
+
+
 <section class="promo-video">
   <div class="container">
     <div class="row">
@@ -65,71 +183,10 @@ const Contact = () => {
   </div>
 </section>
 
-<section class="gallery bg-gray">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="section-title text-center">
-          <h3>Collected Shots
-            <span>of Our Hospital</span>
-          </h3>
-          <p>Leverage agile frameworks to provide a robust synopsis for high level overv-
-            <br/>iews. Iterative approaches to corporate strategy...</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="gallery-item">
-          <img loading="lazy" src="asset/images/gallery/gallery-01.jpg" class="img-fluid" alt="gallery-image"/>
-          <a data-fancybox="images" href="asset/images/gallery/gallery-01.jpg"></a>
-          <h3>Facility 01</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, in.</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="gallery-item">
-          <img loading="lazy" src="asset/images/gallery/gallery-02.jpg" class="img-fluid" alt="gallery-image"/>
-          <a data-fancybox="images" href="asset/images/gallery/gallery-02.jpg"></a>
-          <h3>Facility 02</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, in.</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="gallery-item">
-          <img loading="lazy" src="asset/images/gallery/gallery-03.jpg" class="img-fluid" alt="gallery-image"/>
-          <a data-fancybox="images" href="asset/images/gallery/gallery-03.jpg"></a>
-          <h3>Facility 03</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, in.</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="gallery-item">
-          <img loading="lazy" src="asset/images/gallery/gallery-04.jpg" class="img-fluid" alt="gallery-image"/>
-          <a data-fancybox="images" href="images/gallery/gallery-04.jpg"></a>
-          <h3>Facility 04</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, in.</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="gallery-item">
-          <img loading="lazy" src="asset/images/gallery/gallery-05.jpg" class="img-fluid" alt="gallery-image"/>
-          <a data-fancybox="images" href="asset/images/gallery/gallery-05.jpg"></a>
-          <h3>Facility 05</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, in.</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6">
-        <div class="gallery-item">
-          <img loading="lazy" src="asset/images/gallery/gallery-06.jpg" class="img-fluid" alt="gallery-image"/>
-          <a data-fancybox="images" href="images/gallery/gallery-06.jpg"></a>
-          <h3>Facility 06</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, in.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
-{/* <!-- Contact Section --> */}
+
+
+
 <section class="appoinment-section section">
   <div class="container">
     <div class="row">
@@ -150,15 +207,8 @@ const Contact = () => {
         </div>
         <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordionGroup">
           <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-            officia aute,
-            non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-            tempor,
-            sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-            helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-            vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-            haven't
-            heard of them accusamus labore sustainable VHS.
+            To choose e-health web application is application which will help patient by providing necessary information either hospital info or repart about recently Medical report
+            <br/>patient have full access to view his information treatments but he can not edit it one think he can edit is his/her password
           </div>
         </div>
       </div>
@@ -173,15 +223,8 @@ const Contact = () => {
         </div>
         <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordionGroup">
           <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-            officia aute,
-            non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-            tempor,
-            sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-            helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-            vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-            haven't
-            heard of them accusamus labore sustainable VHS.
+          our services is always available as 24/24 hours. at any moment patient will be able to access his information even if system can crush but patient can save 
+          as pdf file
           </div>
         </div>
       </div>
@@ -196,15 +239,9 @@ const Contact = () => {
         </div>
         <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordionGroup">
           <div class="card-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-            officia aute,
-            non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-            tempor,
-            sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
-            helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-            vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-            haven't
-            heard of them accusamus labore sustainable VHS.
+            every one is allowed to visit this web application but only one to access information is 
+            one atleat who treated by hospital which uses this system and hospital receptionist register that patient and give him clidentios 
+            that enable to login in this panel
           </div>
         </div>
       </div>

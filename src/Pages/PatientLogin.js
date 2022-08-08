@@ -8,11 +8,11 @@ const Home = () => {
     return ( 
         <>
        
-               <NavBar/> 
+               {/* <NavBar/>  */}
            
                 <Patient/>
                 <br/><br/><br/><br/><br/><br/>
-                <Footer/>
+                {/* <Footer/> */}
           
 
 

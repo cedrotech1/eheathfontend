@@ -3,6 +3,7 @@ import NavBar from './NavBar';
 import Footer from "./Footer";
 import SideNav from './sideNav';
 import './css/style.css';
+// import { Link } from "react-router-dom";
 
 
 import React, { useState } from 'react';
@@ -52,6 +53,7 @@ const Report = () => {
         <th>Firstname</th>
         <th>Lastname</th>
         <th>Email</th>
+        <th>modfy</th>
       </tr>
     </thead>
     <tbody>
@@ -59,6 +61,7 @@ const Report = () => {
         <td>John</td>
         <td>Doe</td>
         <td>john@example.com</td>
+        <td> <Link to="/viewReport" class='nav-link'>&nbsp; &nbsp; view</Link></td>
       </tr>
       <tr>
         <td>Mary</td>

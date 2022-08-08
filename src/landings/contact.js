@@ -33,7 +33,7 @@ const Contact = () => {
             <i class="far fa-map"></i>
             <div class="media-body">
               <h3>Location</h3>
-              <p>PO Box 16122 Collins Street West <br/>Victoria 8007 Canada</p>
+              <p>kLab Road 44 KG 548 St <br/>Kigali, Rwanda</p>
             </div>
           </div>
           {/* <!-- Phone --> */}
@@ -42,8 +42,8 @@ const Contact = () => {
             <div class="media-body">
               <h3>Phone</h3>
               <p>
-                (+48) 564-334-21-22-34
-                <br/>(+48) 564-334-21-22-38
+              0782779773
+                <br/>0782779773
               </p>
             </div>
           </div>
@@ -53,8 +53,8 @@ const Contact = () => {
             <div class="media-body">
               <h3>Email</h3>
               <p>
-                info@templatepath.com
-                <br/>info@cleanxer.com
+              admin@klab.rw
+                <br/>admin@klab.rw
               </p>
             </div>
           </div>

@@ -40,27 +40,27 @@ lavender
         <div class="top-right text-center text-md-right">
           <ul class="social-links">
             <li>
-              <a href="https://themefisher.com/" aria-label="facebook">
+              <a href="https://www.facebook.com/cedro.dybala" aria-label="facebook">
                 <i class="fab fa-facebook-f"></i>
               </a>
             </li>
             <li>
-              <a href="https://themefisher.com/" aria-label="twitter">
+              <a href="https://twitter.com/klabrw?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" aria-label="twitter">
                 <i class="fab fa-twitter"></i>
               </a>
             </li>
             <li>
-              <a href="https://themefisher.com/" aria-label="google-plus">
+              <a href="https://klab.rw/" aria-label="google-plus">
                 <i class="fab fa-google-plus-g"></i>
               </a>
             </li>
             <li>
-              <a href="https://themefisher.com/" aria-label="instagram">
+              <a href="https://www.instagram.com/accounts/login/?next=/klabrwanda/" aria-label="instagram">
                 <i class="fab fa-instagram"></i>
               </a>
             </li>
             <li>
-              <a href="https://themefisher.com/" aria-label="pinterest">
+              <a href="https://hu.pinterest.com/tegopinterest/klab/" aria-label="pinterest">
                 <i class="fab fa-pinterest-p"></i>
               </a>
             </li>
@@ -94,8 +94,8 @@ lavender
               </div>
               <strong>Email</strong>
               <br/>
-              <a href="mailto:info@medic.com">
-                <span>info@medic.com</span>
+              <a href="admin@klab.rw">
+                <span>admin@klab.rw</span>
               </a>
             </li>
             <li class="item text-left">
@@ -104,11 +104,11 @@ lavender
               </div>
               <strong>Call Now</strong>
               <br/>
-              <span>+ (88017) - 123 - 4567</span>
+              <span>0782779773</span>
             </li>
           </ul>
           <div class="link-btn text-center text-lg-right">
-            <a href="contact.html" class="btn-style-one">Appoinment</a>
+            <a class="btn-style-one"><Link to="/patient" class='nav-link' style={{color:'blue'}}> LOGIN AS PATIENT</Link></a>
           </div>
         </div>
       </div>
@@ -123,40 +123,25 @@ lavender
     </button>
   
     <div class="collapse navbar-collapse" id="navbarLinks">
-     <b><ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link"><Link to="/">Home</Link></a>
-        </li>
-        <li class="nav-item @@about">
-          <a class="nav-link"><Link to="/about">About US</Link></a>
-        </li>
-        <li class="nav-item @@service">
-          <a class="nav-link" href="service.html"><Link to="/service">Service</Link></a>
-        </li>
-       
-        <li class="nav-item @@appointment">
-          <a class="nav-link" href="appointment.html"><Link to="/patient">patient</Link></a>
-        </li>
-        {/* <li class="nav-item dropdown @@blogs">
-          <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blogs</a> */}
-
-          {/* <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item @@blog" href="blog.html">Blog</a></li>
-            <li><a class="dropdown-item @@blogDetails" href="blog-details.html">Blog Details</a></li>
-            <li class="dropdown dropdown-submenu dropright">
-              <a class="dropdown-item dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-    
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
-                <li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
-              </ul>
-            </li>
-          </ul> 
-        </li>*/}
-        <li class="nav-item @@contact">
-          <a class="nav-link" ><Link to="/contact">Contact US</Link></a>
-        </li>
-      </ul></b> 
+     <b>
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link"><Link to="/" class='nav-link' style={{color:'blue',textDecoration:'none'}}>Home</Link></a>
+          </li>
+          <li class="nav-item @@about">
+          <a class="nav-link"><Link to="/about" class='nav-link' style={{color:'blue'}}>About US</Link></a>
+          </li>
+          <li class="nav-item @@service">
+            <a class="nav-link" href="service.html"><Link to="/service" class='nav-link' style={{color:'blue'}}>Service</Link></a>
+          </li>
+          <li class="nav-item @@about">
+          <a class="nav-link"><Link to="/blog" class='nav-link' style={{color:'blue'}}>BLOG</Link></a>
+          </li>
+          <li class="nav-item @@contact">
+            <a class="nav-link" ><Link to="/contact" class='nav-link' style={{color:'blue'}}>Contact US</Link></a>
+          </li>
+        </ul>
+    </b> 
     </div>
   </div>
 </nav>

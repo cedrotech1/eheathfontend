@@ -27,7 +27,7 @@ const NavBar = () => {
 </div>
 
 </section> */}
-
+<div>
 <div class="header-top1" style={{backgroundColor:'black'}}>
   <div class="container">
     <div class="row align-items-center">
@@ -116,7 +116,7 @@ const NavBar = () => {
   </div>
 </section>
 
-
+</div>
 </>
 
 

@@ -40,7 +40,6 @@ const Report = () => {
       <div class="col-lg-6 col-md-12" style={{backgroundColor:'honeydew',padding:'1cm',boxShadow: "1px 1px 8px rgb(112, 112, 112)"}}>
       <div class="container mt-3">
 <div class="topnav">
-  
   <input type="text" placeholder="Search.."/>
   {/* <button className='btn btn-info'>search</button> */}
 </div>

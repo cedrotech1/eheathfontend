@@ -21,6 +21,10 @@ FACEBOOK: https://www.facebook.com/themefisher
 .navbar-toggler-icon{
   color:red;
 }
+.nav-link{
+  text-decoration: none;
+  color:blue;
+}
 .testimonial-section1 {
   /* padding: 40px 0px; */
   box-shadow: 1px 1px 8px rgb(112, 112, 112);
@@ -513,7 +517,7 @@ li {
 .navbar .navbar-nav li > .nav-link {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 17px;
-  color: #fff;
+  color: rgb(8, 6, 114);
   text-transform: uppercase;
   padding: 13px 18px !important;
   transition: 0.3s;
@@ -524,11 +528,12 @@ li {
   .navbar .navbar-nav li > .nav-link {
     padding: 6px 18px !important;
     text-align: center;
+    color:blue;
     
   }
 }
 .navbar .navbar-nav li > .nav-link:hover {
-  color: #fff;
+  color: rgb(236, 47, 136);
   opacity: 0.7;
 }
 .navbar .navbar-nav li.active > a {
