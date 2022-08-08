@@ -81,7 +81,7 @@ const NavBar = () => {
       <div class="col-xl-4 col-lg-3">
         <div class="logo">
          <Link to="/"> 
-            <img loading="lazy" class="img-fluid" src="asset/images/logo.png" alt="logo"/></Link> 
+         <img loading="lazy" class="img-fluid" src="asset/images/logo1.png" alt="logo" style={{width:'4cm',height:'2cm'}}/></Link> 
           
         </div>
       </div>

@@ -15,28 +15,30 @@ const Footer = () => {
                 </a>
               </figure>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, temporibus?</p>
+            <p>e-helthy head quater center address especially located at kigali city
+            to reach us follow bellow address
+            </p>
             <ul class="location-link">
               <li class="item">
                 <i class="fas fa-map-marker-alt"></i>
-                <p>Modamba, NY 80021, United States</p>
+                <p>kLab Road 44 KG 548 St Kigali, Rwanda</p>
               </li>
               <li class="item">
                 <i class="far fa-envelope" aria-hidden="true"></i>
                 <a href="mailto:support@medic.com">
-                  <p>support@medic.com</p>
+                  <p>admin@klab.rw</p>
                 </a>
               </li>
               <li class="item">
                 <i class="fas fa-phone" aria-hidden="true"></i>
-                <p>(88017) +123 4567</p>
+                <p>0782779773</p>
               </li>
             </ul>
             <ul class="list-inline social-icons">
-              <li class="list-inline-item"><a href="https://facebook.com/themefisher" aria-label="facebook"><i class="fab fa-facebook-f"></i></a></li>
-              <li class="list-inline-item"><a href="https://twitter.com/themefisher" aria-label="twitter"><i class="fab fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a href="https://instagram.com/themefisher" aria-label="instagram"><i class="fab fa-instagram"></i></a></li>
-              <li class="list-inline-item"><a href="https://github.com/themefisher" aria-label="github"><i class="fab fa-github"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.facebook.com/klabrw/" aria-label="facebook"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a href="https://twitter.com/klabrw?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" aria-label="twitter"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.instagram.com/accounts/login/?next=/klabrwanda/" aria-label="instagram"><i class="fab fa-instagram"></i></a></li>
+             
             </ul>
           </div>
         </div>

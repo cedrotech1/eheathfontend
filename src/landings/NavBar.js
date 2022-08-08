@@ -40,7 +40,7 @@ lavender
         <div class="top-right text-center text-md-right">
           <ul class="social-links">
             <li>
-              <a href="https://www.facebook.com/cedro.dybala" aria-label="facebook">
+              <a href="https://www.facebook.com/klabrw/" aria-label="facebook">
                 <i class="fab fa-facebook-f"></i>
               </a>
             </li>
@@ -75,13 +75,13 @@ lavender
 
 
 {/* <!--Header Upper--> */}
-<section class="header-uper" style={{position:"",backgroundColor:'#f8f8ff'}}>
+<section class="header-uper" style={{position:"",backgroundColor:'white'}}>
   <div class="container">
     <div class="row align-items-center">
       <div class="col-xl-4 col-lg-3">
         <div class="logo">
           <a href="index.html">
-            <img loading="lazy" class="img-fluid" src="asset/images/logo.png" alt="logo"/>
+            <img loading="lazy" class="img-fluid" src="asset/images/logo1.png" alt="logo" style={{width:'4cm',height:'2cm'}}/>
           </a>
         </div>
       </div>
