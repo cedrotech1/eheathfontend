@@ -81,7 +81,7 @@ lavender
       <div class="col-xl-4 col-lg-3">
         <div class="logo">
           <a href="index.html">
-            <img loading="lazy" class="img-fluid" src="asset/images/logo1.jpg" alt="logo" style={{width:'4cm',height:'2cm'}}/>
+            <img loading="lazy" class="img-fluid" src="asset/images/logo1.png" alt="logo" style={{width:'4cm',height:'2cm'}}/>
           </a>
         </div>
       </div>
