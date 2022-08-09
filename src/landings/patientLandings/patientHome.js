@@ -22,37 +22,50 @@ const SignIn = () => {
             <NavBar/>
           {/* </div> */}
           
-          <section class="section contact" style={{position:'relative'}}>
-  {/* <!-- container start --> */}
-  <div class="container-fluid" >
-    <div class="row">
-     
-    <div class="col-lg-1 col-md-12"></div>
-     <SideNav/>
-     <div class="col-lg-1 col-md-12"></div>
-      <div class="col-lg-6 col-md-12">
-      <section class="testimonial-section testimonial-section1" style={{backgroundColor:'honeydew'}}>
+          <section class="testimonial-section" style={{backgroundColor:'honeydew'}}>
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
+      {/* <div class="col-lg-12">
         <div class="section-title text-center" style={{Color:'black'}}>
           <h3>What Our
             <span>Patients Says</span>
           </h3>
         </div>
-      </div>
+      </div> */}
     </div>
     <div class="row">
-      <div class="col-lg-12">
+      <div class="col-lg-4">
         <div class="testimonial-carousel">
           {/* <!--Slide Item--> */}
           <div class="slide-item">
             <div class="inner-box text-center">
-              <div class="image-box">
+              {/* <div class="image-box">
                 <figure>
                   <img loading="lazy" src="asset/images/testimonials/1.png" alt=""/>
                 </figure>
-              </div>
+              </div> */}
+              <SideNav/>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-8">
+      
+        <div class="testimonial-carousel">
+          {/* <!--Slide Item--> */}
+          <div class="slide-item">
+            <div class="inner-box text-center">
+              {/* <div class="image-box">
+                <figure>
+                  <img loading="lazy" src="asset/images/testimonials/1.png" alt=""/>
+                </figure>
+              </div> */}
+              <div class="section-title text-center" style={{Color:'black'}}>
+          <h3>What Our
+            <span>Patients Says</span>
+          </h3>
+        </div>
               <h6>Adam Rose</h6>
               <p class="mb-0">Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit amet, consectetur, numquam Lorem
                 ipsum dolor sit amet consectetur adipisicing elit. Molestias, at?</p>
@@ -60,24 +73,9 @@ const SignIn = () => {
           </div>
         </div>
       </div>
-
-     
     </div>
   </div>
 </section>
-      </div>
-
-      <div class="col-lg-1 col-md-12"></div>
-      {/* <div class="col-lg-3 col-md-1 "> */}
-        {/* <!-- address start --> */}
-       
-        {/* <!-- address end --> */}
-      {/* </div> */}
-    </div>
-  </div>
-  {/* <!-- container end --> */}
-</section>
-
 
 {/* <div className='col-md-12' style={{backgroundColor:'lightgray'}}> */}
             <Footer/>

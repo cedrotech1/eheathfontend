@@ -75,14 +75,15 @@ lavender
 
 
 {/* <!--Header Upper--> */}
-<section class="header-uper" style={{position:"",backgroundColor:'white'}}>
+<section class="header-uper" style={{position:"",backgroundColor:'lavender'}}>
   <div class="container">
     <div class="row align-items-center">
       <div class="col-xl-4 col-lg-3">
         <div class="logo">
-          <a href="index.html">
-            <img loading="lazy" class="img-fluid" src="asset/images/logo1.png" alt="logo" style={{width:'4cm',height:'2cm'}}/>
-          </a>
+         
+          <Link to="/"> 
+            <img loading="lazy" class="img-fluid" src="asset/images/k_logo.png" alt="logo" style={{width:'4cm',height:'2cm'}}/>
+            </Link>  
         </div>
       </div>
       <div class="col-xl-8 col-lg-9">

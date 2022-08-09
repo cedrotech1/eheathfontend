@@ -22,17 +22,35 @@ const SignIn = () => {
             <NavBar/>
           {/* </div> */}
           
-          <section class="section contact" >
+          <section class="testimonial-section" style={{backgroundColor:'honeydew'}}>
+  <div class="container">
+    <div class="row">
+      {/* <div class="col-lg-12">
+        <div class="section-title text-center" style={{Color:'black'}}>
+          <h3>What Our
+            <span>Patients Says</span>
+          </h3>
+        </div>
+      </div> */}
+    </div>
+    <div class="row">
+      <div class="col-lg-1">
+      </div>
+
+      <div class="col-lg-10" style={{height:'',backgroundColor:'white',width:'94%',boxShadow:'1px 1px 7px lightgray',borderRadius:'4PX'}}>
+      
+        
+      <section class="section contact" >
   {/* <!-- container start --> */}
   <div class="container-fluid" >
     <div class="row">
      
     {/* <div class="col-lg-1 col-md-12"></div> */}
      {/* <SideNav/> */}
-     <div class="col-lg-2 col-md-12"></div>
+     {/* <div class="col-lg-2 col-md-12"></div> */}
 
-      <div class="col-lg-8 col-md-12">
-<section class="testimonial-section testimonial-section1" style={{backgroundColor:'honeydew',boxShadow:'1px 1px 13px lightgray'}}>
+      <div class="col-lg-12 col-md-12">
+<section class="testimonial-section testimonial-section1" style={{backgroundColor:''}}>
   <div class="container">
 
     {/* <div class="row">
@@ -131,7 +149,7 @@ const SignIn = () => {
 </section>
       </div>
 
-      <div class="col-lg-2 col-md-12"></div>
+      {/* <div class="col-lg-2 col-md-12"></div> */}
       {/* <div class="col-lg-3 col-md-1 "> */}
         {/* <!-- address start --> */}
        
@@ -141,6 +159,32 @@ const SignIn = () => {
   </div>
   {/* <!-- container end --> */}
 </section>
+      </div>
+
+
+      <div class="col-lg-1"></div>
+       
+      
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 {/* <div className='col-md-12' style={{backgroundColor:'lightgray'}}> */}

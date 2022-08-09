@@ -71,17 +71,18 @@ const NavBar = () => {
   </div>
 </div>
  {/* <!--header top--> */}
-
+ {/* honeydew */}
 
 
 {/* <!--Header Upper--> */}
-<section class="header-uper" style={{position:"",backgroundColor:'honeydew',boxShadow: "2px 2px 8px rgb(112, 112, 112)"}}> 
+<section class="header-uper" style={{backgroundColor:'white',borderBottom:'2px solid black'}}> 
   <div class="container">
     <div class="row align-items-center">
       <div class="col-xl-4 col-lg-3">
         <div class="logo">
          <Link to="/"> 
-         <img loading="lazy" class="img-fluid" src="asset/images/logo1.png" alt="logo" style={{width:'4cm',height:'2cm'}}/></Link> 
+         <img loading="lazy" class="img-fluid" src="asset/images/k_logo.png" alt="logo" style={{width:'4cm',height:'2cm'}}/>
+         </Link> 
           
         </div>
       </div>
