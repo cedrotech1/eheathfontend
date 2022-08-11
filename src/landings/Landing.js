@@ -6,7 +6,7 @@ const Landing = () => {
           <>
           <div class="hero-slider">
   {/* <!-- Slider Item --> */}
-  <div class="slider-item slide1" style={{ backgroundImage:`url(${Back})` }}>
+  <div class="slider-item slide1" style={{ backgroundImage:`url(${Back})`,marginTop:'-0.54cm' }}>
     <div class="container">
       <div class="row">
         <div class="col-12">
