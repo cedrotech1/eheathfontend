@@ -1,8 +1,10 @@
 import Back from '../images2/slider-bg-1.jpg';
+import React from "react";
+import { Link } from "react-router-dom";
 const Footer = () => {
     return ( 
         <>
-<footer class="footer-main" style={{backgroundColor:'darkslategray'}}>
+<footer class="footer-main" style={{backgroundColor:'#484848',marginTop:'-3cm'}}>
   <div class="footer-top">
     <div class="container">
       <div class="row justify-content-between">
@@ -25,7 +27,7 @@ const Footer = () => {
               </li>
               <li class="item">
                 <i class="far fa-envelope" aria-hidden="true"></i>
-                <a href="mailto:support@medic.com">
+                <a href="admin@klab.rw">
                   <p>admin@klab.rw</p>
                 </a>
               </li>
@@ -43,57 +45,63 @@ const Footer = () => {
           </div>
         </div>
         <div class="col-lg-3 col-md-5 mb-3 mb-md-0">
-          <h2>Services</h2>
+          <h2>Quick links</h2>
           <ul class="menu-link">
             <li>
-              <a href="service.html">
-                <i class="fa fa-angle-right" aria-hidden="true"></i>Orthopadic Liabilities</a>
+              <Link to="/" class='nav-link'> 
+                  <i class="fa fa-angle-right" aria-hidden="true">Home</i>
+              </Link>
             </li>
             <li>
-              <a href="service.html">
-                <i class="fa fa-angle-right" aria-hidden="true"></i>Dental Clinic</a>
+              <Link to="/blog" class='nav-link' >
+                <i class="fa fa-angle-right" aria-hidden="true"></i>blogs
+              </Link>
             </li>
             <li>
-              <a href="service.html">
-                <i class="fa fa-angle-right" aria-hidden="true"></i>Dormamu Clinic</a>
+              <Link to="/service" class='nav-link' >
+                <i class="fa fa-angle-right" aria-hidden="true"></i>services
+              </Link>
             </li>
             <li>
-              <a href="service.html">
-                <i class="fa fa-angle-right" aria-hidden="true"></i>Psycological Clinic</a>
+               <Link to="/about" class='nav-link'>
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>about us
+              </Link>
             </li>
             <li>
-              <a href="service.html">
-                <i class="fa fa-angle-right" aria-hidden="true"></i>Gynaecological Clinic</a>
+               <Link to="/contact" class='nav-link'>
+                  <i class="fa fa-angle-right" aria-hidden="true"></i>contact us
+                </Link>
             </li>
           </ul>
         </div>
         <div class="col-lg-4 col-md-7">
           <div class="social-links">
-            <h2>Recent Posts</h2>
+            <h2>Recent blogs</h2>
             <ul>
               <li class="item">
                 <div class="media">
                   <div class="media-left mr-3">
                     <a href="blog-details.html">
-                      <img loading="lazy" src="asset/images/blog/post-thumb-small.jpg" alt="post-thumb"/>
+                      <img loading="lazy" src="asset/images/blog/post-thumb-small.jpg" alt="post-thumb" style={{borderRadius:'100%',height:'2.5cm',width:'2.5cm'}}/>
                     </a>
                   </div>
                   <div class="media-body">
-                    <h5><a href="blog-details.html">A lesson adip isicing</a></h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dolorem.</p>
+                    <h5><a href="blog-details.html">water is the key of life</a></h5>
+                    <p> drinking water is the key of life we need water in life as web as pure water </p>
                   </div>
                 </div>
               </li>
+              <br/>
               <li class="item">
                 <div class="media">
                   <div class="media-left mr-3">
                     <a href="blog-details.html">
-                      <img loading="lazy" src="asset/images/blog/post-thumb-small.jpg" alt="post-thumb"/>
+                      <img loading="lazy" src="asset/images/blog/post-thumb-small.jpg" alt="post-thumb" style={{borderRadius:'100%',height:'2.5cm',width:'2.5cm'}} />
                     </a>
                   </div>
                   <div class="media-body">
-                    <h5><a href="blog-details.html">How to make an event</a></h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dolorem.</p>
+                  <h5><a href="blog-details.html">avoid eating too oil</a></h5>
+                    <p> drinking water is the key of life we need water in life as web as pure water </p>
                   </div>
                 </div>
               </li>
@@ -106,19 +114,10 @@ const Footer = () => {
   <div class="footer-bottom" style={{backgroundColor:'black'}}>
     <div class="container clearfix">
       <div class="copyright-text">
-        <p>&copy; Copyright 2021. Designed &amp; Developed by <a href="https://themefisher.com/">Themefisher</a></p>
+     <center>  <p>&copy; Copyright 2022. Designed &amp; Developed by 
+      <a href="https://twitter.com/klabrw?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"> <span></span>K_lab developers</a></p></center> 
       </div>
-      <ul class="footer-bottom-link">
-        <li>
-          <a href="index.html">Home</a>
-        </li>
-        <li>
-          <a href="about.html">About</a>
-        </li>
-        <li>
-          <a href="contact.html">Contact</a>
-        </li>
-      </ul>
+      
     </div>
   </div>
 </footer>

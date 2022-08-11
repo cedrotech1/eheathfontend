@@ -57,7 +57,7 @@ const Landing = () => {
 {/* <!--about section--> */}
 <section class="feature-section section bg-gray">
 	<div class="container">
-		<div class="row">
+		<div class="row" style={{marginTop:'-2.5cm'}}>
 			<div class="col-lg-12">
 				<div class="image-content">
 					<div class="section-title text-center">
@@ -147,7 +147,7 @@ const Landing = () => {
 
 <section class="testimonial-section" style={{backgroundColor:'honeydew'}}>
   <div class="container">
-    <div class="row">
+    <div class="row" style={{marginTop:'-2.5cm'}}>
       <div class="col-lg-12">
         <div class="section-title text-center" style={{Color:'black'}}>
           <h3>What Our
@@ -195,6 +195,8 @@ const Landing = () => {
     </div>
   </div>
 </section>
+
+<br/><br/>
 
           </>
         

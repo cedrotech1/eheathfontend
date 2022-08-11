@@ -109,7 +109,7 @@ lavender
             </li>
           </ul>
           <div class="link-btn text-center text-lg-right">
-            <a class="btn-style-one"><Link to="/patient" class='nav-link' style={{color:'blue'}}> LOGIN AS PATIENT</Link></a>
+            <a class="btn-style-one"><Link to="/login" class='nav-link' style={{color:'blue'}}> LOGIN </Link></a>
           </div>
         </div>
       </div>

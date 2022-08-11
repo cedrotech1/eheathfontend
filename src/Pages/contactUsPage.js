@@ -11,9 +11,10 @@ const Home = () => {
                <NavBar/> 
            
                 <Contact/>
-                <br/><br/><br/><br/><br/><br/>
+                <br/><br/>
+                      <div class='footer_container' style={{marginTop:'-10cm'}}>
                 <Footer/>
-          
+                    </div>
 
 
         </>

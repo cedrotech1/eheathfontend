@@ -18,6 +18,25 @@ WEBSITE: https://themefisher.com
 TWITTER: https://twitter.com/themefisher
 FACEBOOK: https://www.facebook.com/themefisher
 */
+/* @media (max-width: 767px) {
+  .footer_container {
+    margin-top:'10cm';
+    background-color:red;
+  }
+} */
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height: 100px;
+  }
+  .map-container iframe{
+  left:0;
+  top:0;
+  height:10cm;
+  width:100%;
+  position:absolute;
+  }
 .navbar-toggler-icon{
   color:red;
 }

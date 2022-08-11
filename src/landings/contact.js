@@ -98,9 +98,18 @@ const Contact = () => {
        
 <section class="map">
   {/* <!-- Google Map --> */}
-  <div id="map">
-  <div class="mapouter col-md-12"><div class="gmap_canvas"><iframe width="1330" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=k_lab&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br/></div></div>
+  <div id="map map-container-google-1" style={{backgroundColor:''}}  class="z-depth-1-half map-container">
+  <div class="mapouter col-md-12"><div class="gmap_canvas"><iframe width="1180" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=k_lab&t=&z=13&ie=UTF8&iwloc=&output=embed"
+   frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowfullscreen></iframe><a href="https://123movies-to.org">123movies</a><br/></div></div>
   </div>
+
+  {/* <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+  <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+    style="border:0" allowfullscreen></iframe>
+</div> */}
+  {/* <div class="mapouter" style={{position:'relative',textAlign:'right',height:'408px',width:'618px'}}><div class="gmap_canvas" style={{overflow:'hidden',background:'none!important',height:'408px',width:'618px'}}><iframe width="618" height="408" id="gmap_canvas" src="https://maps.google.com/maps?q=klab%20kigali&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/divi-discount/">divi discount</a><br/><style>.mapouter{}</style><a href="https://www.embedgooglemap.net">google map embed</a><style>.gmap_canvas 
+    {}</style></div></div> */}
+  <br/><br/>
 </section><br/>
           </>
         

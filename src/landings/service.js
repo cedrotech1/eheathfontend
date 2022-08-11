@@ -23,14 +23,14 @@ const Service = () => {
 
 
 
-<section class="testimonial-section" style={{backgroundColor:'honeydew'}}>
+<section class="testimonial-section" style={{backgroundColor:'white'}}>
   <div class="container">
-    <div class="row">
+    <div class="row" style={{marginTop:'-1.5cm'}}>
       <div class="col-lg-12">
         <div class="section-title text-center" style={{Color:'black'}}>
-          <h3>What Our
-            <span>Patients Says</span>
-          </h3>
+          <h4>DIFFERNT 
+            <span> WEB SERVICES</span>
+          </h4>
         </div>
       </div>
     </div>
@@ -40,9 +40,18 @@ const Service = () => {
           {/* <!--Slide Item--> */}
           <div class="slide-item">
             <div class="inner-box text-center">
-              <h6>Adam Rose</h6>
-              <p class="mb-0">Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit amet, consectetur, numquam Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Molestias, at?</p>
+            <div class="item">
+								<div class="icon-box">
+									<figure>
+										<a href="services.html"><img loading="lazy" src="asset/images/resource/1.png" alt="features image"/></a>
+									</figure>
+								</div>
+								<h3 class="mb-2">specific threatment</h3>
+								<p> patient will view his report about his treatments from different hospital at different time! 
+                  dates report, doctor name who make operation and other related report
+
+                </p>
+							</div>
             </div>
           </div>
         </div>
@@ -54,9 +63,19 @@ const Service = () => {
           <div class="slide-item">
             <div class="inner-box text-center">
              
-              <h6>Adam Rose</h6>
-              <p class="mb-0">Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit amet, consectetur, numquam Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Molestias, at?</p>
+            <div class="item">
+								<div class="icon-box">
+									<figure>
+										<a href="services.html">
+											<img loading="lazy" src="asset/images/resource/4.png" alt="features image"/>
+										</a>
+									</figure>
+								</div>
+								<h3 class="mb-2">General Treatment</h3>
+								<p>in this feature general tratment patient will have access to view his information like blood type 
+                  current weigth, height , fever , blood speed...
+                </p>
+							</div>
             </div>
           </div>
         </div>
@@ -67,9 +86,18 @@ const Service = () => {
           {/* <!--Slide Item--> */}
           <div class="slide-item">
             <div class="inner-box text-center">
-              <h6>Adam Rose</h6>
-              <p class="mb-0">Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit amet, consectetur, numquam Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Molestias, at?</p>
+            <div class="item">
+								<div class="icon-box">
+									<figure>
+										<a href="services.html">
+											<img loading="lazy" src="asset/images/resource/2.png" alt="features image"/>
+										</a>
+									</figure>
+								</div>
+								<h3 class="mb-2">testes</h3>
+								<p>patient have accesss to view testes hospital made for him/her and  dates ! this information can help doctors next time 
+                  patient need treatments </p>
+							</div>
             </div>
           </div>
         </div>
@@ -80,9 +108,20 @@ const Service = () => {
           {/* <!--Slide Item--> */}
           <div class="slide-item">
             <div class="inner-box text-center">
-              <h6>Adam Rose</h6>
-              <p class="mb-0">Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit amet, consectetur, numquam Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Molestias, at?</p>
+            <div class="item">
+								<div class="icon-box">
+									<figure>
+										<a href="services.html">
+											<img loading="lazy" src="asset/images/resource/3.png" alt="features image"/>
+										</a>
+									</figure>
+								</div>
+								<h3 class="mb-2">MEDICAL CARE</h3>
+								<p> patient have access to view his/her medecine for his text result if it is positive
+                  and view information about that medecines like expired date and manufactured date 
+                  and catalog of that medecine
+                </p>
+							</div>
             </div>
           </div>
         </div>
