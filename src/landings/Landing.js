@@ -14,7 +14,7 @@ const Landing = () => {
           <div class="content style text-center">
             <h2 class="text-white text-bold mb-2" data-animation-in="slideInLeft">WELCOME TO E-HEALTH WEB</h2>
             <p class="tag-text mb-4" data-animation-in="slideInRight">We care our patients by providing necessary information either hospital info or repart about recently Medical report<br/>Your welcome to e-health digitalized information</p>
-            <a href="about.html" class="btn btn-main btn-white" data-animation-in="slideInLeft" data-duration-in="1.2"><Link to="/about" class='' style={{textDecoration:'none'}}>explore</Link></a>
+            <Link to="/about" class='' style={{textDecoration:'none'}}> <a href="about" class="btn btn-main btn-white" data-animation-in="slideInLeft" data-duration-in="1.2">explore</a></Link>
           </div>
           {/* <!-- Slide Content End --> */}
         </div>

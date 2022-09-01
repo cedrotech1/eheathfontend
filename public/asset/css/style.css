@@ -1,29 +1,3 @@
-/**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
- */
-
-/*
-THEME: Medic | Medical HTML Template
-VERSION: 1.0.0
-AUTHOR: Themefisher
-
-HOMEPAGE: https://themefisher.com/products/medic-medical-template/
-DEMO: https://demo.themefisher.com/themefisher/medic/
-GITHUB: https://github.com/themefisher/Medic-Bootstrap-Medical-Template
-
-WEBSITE: https://themefisher.com
-TWITTER: https://twitter.com/themefisher
-FACEBOOK: https://www.facebook.com/themefisher
-*/
-/* @media (max-width: 767px) {
-  .footer_container {
-    margin-top:'10cm';
-    background-color:red;
-  }
-} */
 .map-container{
   overflow:hidden;
   padding-bottom:56.25%;
@@ -40,19 +14,19 @@ FACEBOOK: https://www.facebook.com/themefisher
 .navbar-toggler-icon{
   color:red;
 }
-.nav-link{
+/* .nav-link{
   text-decoration: none;
   color:blue;
-}
-.testimonial-section1 {
+} */
+/* .testimonial-section1 {
   /* padding: 40px 0px; */
   /* box-shadow: 1px 1px 8px rgb(112, 112, 112); */
-}
 
+/* 
 .sideNavbar{
   /* padding: 40px 0px; */
-  box-shadow: 1px 1px 8px rgb(112, 112, 112);
-}
+  /* box-shadow: 1px 1px 8px rgb(112, 112, 112);
+} */ */
 
 
 *{
@@ -523,7 +497,7 @@ li {
 
 .navbar {
   margin-bottom: 0;
-  background: #48bdc5;
+  background: #c1f6fa;
   border: none;
   color:red;
   border-radius: 0;
@@ -545,15 +519,18 @@ li {
 }
 @media (max-width: 991px) {
   .navbar .navbar-nav li > .nav-link {
-    padding: 6px 18px !important;
+    padding: 4px 18px !important;
     text-align: center;
-    color:blue;
+    color:black;
+    /* font-family:; */
     
   }
 }
 .navbar .navbar-nav li > .nav-link:hover {
-  color: rgb(236, 47, 136);
+  /* color: rgb(236, 47, 136); */
   opacity: 0.7;
+  /* border-bottom: 4px solid blue; */
+  transition: 1s;
 }
 .navbar .navbar-nav li.active > a {
   background: transparent;

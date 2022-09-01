@@ -1,13 +1,43 @@
-import React from 'react';
+// import React from 'react';
+import Form from './Form';
+import React, { useEffect, useState } from "react";
 import Back from '../images2/3.jpg'
-// import NavBar from "./NavBar";
 
-// import Footer from "./Footer";
-import 'bootstrap/dist/css/bootstrap.css';
 const Contact = () => {
+
+  const [users, setUsers] = useState([]);
+
+
+  const onAdd = async (message, email) => {
+    await fetch("https://ehealthbackend-project.herokuapp.com/api/health/suggest", 
+    {
+      method: "POST",
+      body: JSON.stringify({
+        message: message,
+        email: email,
+      }),
+      headers: {
+        "Content-type": "application/json; charset=UTF-8",
+      },
+    })
+      .then((res) => {
+        if (res.status !== 201) {
+          return;
+        } else {
+          return res.json();
+        }
+      })
+      .then((data) => {
+        setUsers((users) => [...users, data]);
+        alert(data);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  };
     return ( 
           <>
-<section class="page-title text-center contactMes" style={{ backgroundImage:`url(${Back})` }}>
+<section class="page-title text-center contactMes" style={{ backgroundImage:`url(${Back})`,marginTop:'-0.54cm'  }}>
     <div class="container">
         <div class="title-text">
             <h1>Contact</h1>
@@ -47,6 +77,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
+        
           {/* <!-- Email --> */}
           <div class="media">
             <i class="far fa-envelope"></i>
@@ -62,32 +93,7 @@ const Contact = () => {
         {/* <!-- address end --> */}
       </div>
       <div class="col-lg-8 col-md-7">
-        <div class="contact-form">
-          {/* <!-- contact form start --> */}
-          <form action="!#" class="row">
-            {/* <!-- name --> */}
-            <div class="col-lg-6">
-              <input type="text" name="name" class="form-control main" placeholder="Name" required/>
-            </div>
-            {/* <!-- email --> */}
-            <div class="col-lg-6">
-              <input type="email" class="form-control main" placeholder="Email" required/>
-            </div>
-            {/* <!-- phone --> */}
-            <div class="col-lg-12">
-              <input type="text" class="form-control main" placeholder="Phone" required/>
-            </div>
-            {/* <!-- message --> */}
-            <div class="col-lg-12">
-              <textarea name="message" rows="10" class="form-control main" placeholder="Your message"></textarea>
-            </div>
-            {/* <!-- submit button --> */}
-            <div class="col-md-12 text-right">
-              <button class="btn btn-style-one" type="submit">Send Message</button>
-            </div>
-          </form>
-          {/* <!-- contact form end --> */}
-        </div>
+      <Form onAdd={onAdd}/>
       </div>
     </div>
   </div>

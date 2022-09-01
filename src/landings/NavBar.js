@@ -1,80 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import './main.css';
-// import './style.css';
-// import './subMain.css';
+
 const NavBar = () => {
     return ( 
 <>
        
-    {/* <section className="header navbar">
-       <div className="navbar">
-            <table>
-               <tr>
-                     
-                     <td><label id="logo_text"></label></td>
-                 </tr>
-            </table>
-            <ul>
+  
 
-               <li><Link to="/">Home</Link> </li>
-                
-                <li><Link to="/contact">About</Link> </li>
-                 <li><Link to="/About">Contact</Link> </li>
-                 <li><Link to="/Todo">To-do</Link> </li>
-                 <li><Link to="/Login" id="admin_login">login</Link> </li>
-            </ul>
-</div>
-lavender
-</section> */}
-
-<div class="header-top" style={{backgroundColor:'#f5f5f5',height:'1.8cm'}}>
+<div class="header-top" style={{backgroundColor:'#f5f5f5'}}>
   <div class="container">
     <div class="row align-items-center">
-      <div class="col-md-6">
+    <div class="col-md-6">
         <div class="top-left text-center text-md-left">
-        <div class="link-btn text-center text-lg-right">
-
-
-
-        <nav class="navbar  navbar-expand-lg navbar-dark" style={{backgroundColor:'#f5f5f5',marginLeft:'4cm',height:'1.8cm'}}>
-  <div class="container">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarLinks">
-      <ul class="navbar-nav">
-        
-       
-        <li class="nav-item dropdown @@blogs">
-          <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style={{color:'black'}}>
-            
-
-          <button type="button" class="btn btn-default btn-sm">
-          <h5><i class="glyphicon glyphicon-user" style={{}}></i>&nbsp;&nbsp;LOGIN &nbsp;AS</h5>  
-        </button>
-            
-            
-            
-            </a>
-
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style={{backgroundColor:'lavender'}}>
-            <li><a class="dropdown-item @@blog" href="blog.html">HOSPITAL ADMIN</a></li>
-            <li><a class="dropdown-item @@blogDetails" href="blog-details.html">DOCTOR</a></li>
-            <li class="dropdown dropdown-submenu dropright">
-              <a class="dropdown-item @@blogDetails" href="blog-details.html">RECEPTIONIST</a>
-    
-              
-            </li>
-          </ul>
-        </li>
-       
-      </ul>
-    </div>
-  </div>
-</nav>
-          </div>
+          <h6>Opening Hours : 24/24 from Monday to Saturday 7/7 days</h6>
         </div>
       </div>
       <div class="col-md-6">
@@ -117,14 +55,14 @@ lavender
 
 {/* <!--Header Upper--> */}
 
-<section class="header-uper" style={{position:"",backgroundColor:'lavender'}}>
+<section class="header-uper" style={{position:"",backgroundColor:'honeydew'}}>
   <div class="container">
     <div class="row align-items-center">
       <div class="col-xl-4 col-lg-3">
         <div class="logo">
          
-          <Link to="/"> 
-            <img loading="lazy" class="img-fluid" src="asset/images/k_logo.png" alt="logo" style={{width:'4cm',height:'2cm'}}/>
+          <Link to="/hospital_login"> 
+            <img loading="lazy" class="img-fluid" src="asset/images/lg2.png" alt="logo" style={{width:'4cm',height:'2cm'}}/>
             </Link>  
         </div>
       </div>
@@ -151,7 +89,7 @@ lavender
             </li>
           </ul>
           <div class="link-btn text-center text-lg-right">
-            <a class="btn-style-one"><Link to="/login" class='nav-link' style={{color:'blue'}}> LOGIN AS PATIENT</Link></a>
+            <a class="btn-style-one"><Link to="/patient_login" class='nav-link' style={{color:'blue'}}> LOGIN AS USER</Link></a>
           </div>
         </div>
       </div>
@@ -159,7 +97,7 @@ lavender
   </div>
 </section>
 
-<nav class="navbar navbar-expand-lg navbar-dark flex-column" style={{backgroundColor:'powderblue'}}>
+<nav class="navbar navbar-expand-lg navbar-dark flex-column" style={{backgroundColor:''}}>
   <div class="container">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -168,7 +106,7 @@ lavender
     <div class="collapse navbar-collapse" id="navbarLinks">
      <b>
         <ul class="navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link"><Link to="/" class='nav-link' style={{color:'blue',textDecoration:'none'}}>Home</Link></a>
           </li>
           <li class="nav-item @@about">
@@ -188,12 +126,7 @@ lavender
     </div>
   </div>
 </nav>
-
 </>
-
-
-
-
      );
 }
  

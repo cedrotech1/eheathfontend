@@ -1,5 +1,5 @@
 {
-  "name": "klab-employee-management-system",
+  "name": "e-helth",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,7 @@
     "react": "^18.2.0",
     "react-csv": "^2.2.2",
     "react-dom": "^18.2.0",
+    "react-fetch-hook": "^1.9.5",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "sweetalert2": "^11.4.19",

@@ -1,7 +1,24 @@
 import Back from '../images2/slider-bg-1.jpg';
-import React from "react";
+// import React from "react";
 import { Link } from "react-router-dom";
+import Blogs from "./Blogs_recents";
+import { React, useEffect,useState} from 'react';
 const Footer = () => {
+
+  const [users, setUsers] = useState([]);
+  useEffect(() => {
+    fetchData();
+  }, []);
+
+  const fetchData = async () => {
+    await  fetch("https://ehealthbackend-project.herokuapp.com/api/health/blogs",{
+      params: {
+        _limit: 1
+       }
+    })
+      .then((res) => res.json())
+      .then((data) => setUsers(data.blogs)) 
+  };
     return ( 
         <>
 <footer class="footer-main" style={{backgroundColor:'#484848',marginTop:'-3cm'}}>
@@ -12,9 +29,9 @@ const Footer = () => {
           <div class="about-widget">
             <div class="footer-logo">
               <figure>
-                <a href="index.html">
-                  <img loading="lazy" class="img-fluid" src="asset/images/logo-2.png" alt="medic"/>
-                </a>
+              <Link to="/hospital_login"> 
+            <img loading="lazy" class="img-fluid" src="asset/images/lg2.png" alt="logo" style={{width:'4cm',height:'2cm'}}/>
+            </Link> 
               </figure>
             </div>
             <p>e-helthy head quater center address especially located at kigali city
@@ -78,33 +95,22 @@ const Footer = () => {
           <div class="social-links">
             <h2>Recent blogs</h2>
             <ul>
-              <li class="item">
-                <div class="media">
-                  <div class="media-left mr-3">
-                    <a href="blog-details.html">
-                      <img loading="lazy" src="asset/images/blog/post-thumb-small.jpg" alt="post-thumb" style={{borderRadius:'100%',height:'2.5cm',width:'2.5cm'}}/>
-                    </a>
-                  </div>
-                  <div class="media-body">
-                    <h5><a href="blog-details.html">water is the key of life</a></h5>
-                    <p> drinking water is the key of life we need water in life as web as pure water </p>
-                  </div>
-                </div>
-              </li>
+            {users.map((user) => (
+          <Blogs
+
+            id={user.id}
+            key={user.id}
+            title={user.title}
+            description={user.description}
+            file={user.blog_file}
+
+            // onDelete={onDelete}
+            // onUpdate={onUpdate} 
+          />
+          
+        ))}
               <br/>
-              <li class="item">
-                <div class="media">
-                  <div class="media-left mr-3">
-                    <a href="blog-details.html">
-                      <img loading="lazy" src="asset/images/blog/post-thumb-small.jpg" alt="post-thumb" style={{borderRadius:'100%',height:'2.5cm',width:'2.5cm'}} />
-                    </a>
-                  </div>
-                  <div class="media-body">
-                  <h5><a href="blog-details.html">avoid eating too oil</a></h5>
-                    <p> drinking water is the key of life we need water in life as web as pure water </p>
-                  </div>
-                </div>
-              </li>
+             
             </ul>
           </div>
         </div>
