@@ -34,7 +34,7 @@ import './user.css';
             
             {/* <!-- message --> */}
             <div class="col-lg-12">
-              <textarea name="message" rows="10" class="form-control main" placeholder="Your message" style={{marginLeft:'1cm',fontSize:'16px'}}/>
+              <textarea name="message" rows="10" class="form-control main" placeholder="Your message" style={{marginLeft:'',fontSize:'16px'}}/>
             </div>
             {/* <!-- submit button --> */}
             <div class="col-md-12 text-right">
