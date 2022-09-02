@@ -170,10 +170,10 @@ const Landing = () => {
               <h6>
               <Link to="/service" class='nav-link'>
                      <figure>
-                        <img loading="lazy" src="asset/images/resource/1.png" alt="features image" style={{height:'2cm',width:'2cm',marginTop:'-1.5cm'}}/>
+                        <img loading="lazy" src="asset/images/resource/x.png" alt="features image" style={{height:'2.6cm',width:'2.6cm',marginTop:'-1.5cm',borderRadius:'100%'}}/>
                       </figure>
                    </Link>
-                <b>patients</b></h6>
+                <b style={{color:'black'}}>patients</b></h6>
               <p class="mb-0"> Our patient is the main web users because of our main purpuser is to digitalize 
               their information to be accessible by both patient and different hospital users in easy way lather 
               using manual way </p>
@@ -193,10 +193,10 @@ const Landing = () => {
               <h6>
                    <Link to="/service" class='nav-link'>
                      <figure>
-                        <img loading="lazy" src="asset/images/resource/1.png" alt="features image" style={{height:'2cm',width:'2cm',marginTop:'-1.5cm'}}/>
+                        <img loading="lazy" src="asset/images/resource/x3.png" alt="features image" style={{height:'2.6cm',width:'2.6cm',marginTop:'-1.5cm',borderRadius:'100%'}}/>
                       </figure>
                    </Link>
-                  <b>DIFFERENT HOSPITAL USERS</b></h6>
+                  <b style={{color:'black'}}>DIFFERENT HOSPITAL USERS</b></h6>
               <p class="mb-0"> Hospital has many users which will be use this system, 
               users like resepitionist,doctors,.. will have access to add,modify different patient information
               depending each user access</p>
