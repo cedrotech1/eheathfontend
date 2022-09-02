@@ -150,8 +150,8 @@ const Landing = () => {
     <div class="row" style={{marginTop:'-2.5cm'}}>
       <div class="col-lg-12">
         <div class="section-title text-center" style={{Color:'black'}}>
-          <h3>What Our
-            <span>Patients Says</span>
+          <h3>Main &nbsp;
+            <span>web users</span>
           </h3>
         </div>
       </div>
@@ -162,14 +162,21 @@ const Landing = () => {
           {/* <!--Slide Item--> */}
           <div class="slide-item">
             <div class="inner-box text-center">
-              <div class="image-box">
+              {/* <div class="image-box">
                 <figure>
                   <img loading="lazy" src="asset/images/testimonials/1.png" alt=""/>
                 </figure>
-              </div>
-              <h6>Adam Rose</h6>
-              <p class="mb-0">Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit amet, consectetur, numquam Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Molestias, at?</p>
+              </div> */}
+              <h6>
+              <Link to="/service" class='nav-link'>
+                     <figure>
+                        <img loading="lazy" src="asset/images/resource/1.png" alt="features image" style={{height:'2cm',width:'2cm',marginTop:'-1.5cm'}}/>
+                      </figure>
+                   </Link>
+                <b>patients</b></h6>
+              <p class="mb-0"> Our patient is the main web users because of our main purpuser is to digitalize 
+              their information to be accessible by both patient and different hospital users in easy way lather 
+              using manual way </p>
             </div>
           </div>
         </div>
@@ -180,14 +187,19 @@ const Landing = () => {
           {/* <!--Slide Item--> */}
           <div class="slide-item">
             <div class="inner-box text-center">
-              <div class="image-box">
-                <figure>
-                  <img loading="lazy" src="asset/images/testimonials/1.png" alt=""/>
-                </figure>
-              </div>
-              <h6>Adam Rose</h6>
-              <p class="mb-0">Neque porro quisquam est, qui dolorem ipsum quia consectetur, dolor sit amet, consectetur, numquam Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Molestias, at?</p>
+              {/* <div class="image-box" style={{backgroundColor:'honeydew',border:'3px solid white'}}>
+              
+              </div> */}
+              <h6>
+                   <Link to="/service" class='nav-link'>
+                     <figure>
+                        <img loading="lazy" src="asset/images/resource/1.png" alt="features image" style={{height:'2cm',width:'2cm',marginTop:'-1.5cm'}}/>
+                      </figure>
+                   </Link>
+                  <b>DIFFERENT HOSPITAL USERS</b></h6>
+              <p class="mb-0"> Hospital has many users which will be use this system, 
+              users like resepitionist,doctors,.. will have access to add,modify different patient information
+              depending each user access</p>
             </div>
           </div>
         </div>

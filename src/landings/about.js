@@ -5,6 +5,18 @@ import Back from '../images2/3.jpg'
 // import Footer from "./Footer";
 import 'bootstrap/dist/css/bootstrap.css';
 const Contact = () => {
+
+  function myFunction() {
+     var x = document.getElementById("dormitoryX");
+     x.style.display='block';
+    // if (x.style.display === "none") {
+    //   x.style.display = "block";
+    // } else {
+    //   x.style.display = "none";
+    // }
+    // alert('hello fr');
+  }
+  // myFunction();
     return ( 
           <>
 <section class="page-title text-center"  style={{ backgroundImage:`url(${Back})`,marginTop:'-0.54cm'  }}>
@@ -39,14 +51,14 @@ const Contact = () => {
           {/* <!-- Nav tabs --> */}
           <div class="tabs mb-5">
             <ul class="nav nav-tabs justify-content-center" id="aboutTab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <a class="nav-link active" id="dormitory-tab" data-toggle="tab" href="#dormitory" role="tab" aria-controls="dormitory" aria-selected="true">our story</a>
+              <li class="nav-item" role="presentation" >
+                <a class="nav-link active" id="dormitory-tab"  data-toggle="tab" href="#dormitory" role="tab" aria-controls="dormitory" aria-selected="true" onclick="myFunction()">our story</a>
               </li>
               <li class="nav-item" role="presentation">
                 <a class="nav-link" id="orthopedic-tab" data-toggle="tab" href="#orthopedic" role="tab" aria-controls="orthopedic" aria-selected="false">vision</a>
               </li>
               <li class="nav-item" role="presentation">
-                <a class="nav-link" id="sonogram-tab" data-toggle="tab" href="#sonogram" role="tab" aria-controls="sonogram" aria-selected="false">Mission</a>
+                <a class="nav-link" id="sonogram-tab"  data-toggle="tab" href="#sonogram" role="tab" aria-controls="sonogram" aria-selected="false">Mission</a>
               </li>
               {/* <li class="nav-item" role="presentation">
                 <a class="nav-link" id="x-ray-tab" data-toggle="tab" href="#x-ray" role="tab" aria-controls="x-ray" aria-selected="false">x-ray</a>
@@ -57,8 +69,9 @@ const Contact = () => {
             </ul>
           </div>
           {/* <!--Start single tab content--> */}
-          <div class="tab-content" id="aboutTab">
-            <div class="service-box tab-pane fade show active" id="dormitory">
+          {/* {myFunction()} */}
+          <div class="tab-content" id="aboutTab" >
+            <div class="service-box tab-pane fade show active" id="dormitoryX">
               <div class="row">
                 <div class="col-lg-6">
                   <img loading="lazy" class="img-fluid" src="asset/images/services/service-one.jpg" alt="service-image"/>
@@ -207,7 +220,7 @@ const Contact = () => {
           </h4>
         </div>
         <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordionGroup">
-          <div class="card-body">
+          <div class="card-body" style={{fontSize:'19px'}}>
             To choose e-health web application is application which will help patient by providing necessary information either hospital info or repart about recently Medical report
             <br/>patient have full access to view his information treatments but he can not edit it one think he can edit is his/her password
           </div>
@@ -223,7 +236,7 @@ const Contact = () => {
           </h4>
         </div>
         <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordionGroup">
-          <div class="card-body">
+          <div class="card-body" style={{fontSize:'19px'}}>
           our services is always available as 24/24 hours. at any moment patient will be able to access his information even if system can crush but patient can save 
           as pdf file
           </div>
@@ -239,7 +252,7 @@ const Contact = () => {
           </h4>
         </div>
         <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordionGroup">
-          <div class="card-body">
+          <div class="card-body" style={{fontSize:'19px'}}>
             every one is allowed to visit this web application but only one to access information is 
             one atleat who treated by hospital which uses this system and hospital receptionist register that patient and give him clidentios 
             that enable to login in this panel
@@ -251,20 +264,20 @@ const Contact = () => {
 </div>
       </div>
       <div class="col-lg-6">
-        <div class="contact-area pl-0 pl-lg-5">
+<div class="contact-area pl-0 pl-lg-5">
   <div class="section-title">
     <h3>submit Your
       <span>_Idea</span>
     </h3>
   </div>
-  <form name="contact_form" class="default-form contact-form" action="!#" method="post">
+  <form name="contact_form" class="default-form contact-form" action="!#" method="post" >
     <div class="row">
       <div class="col-md-6">
         <div class="form-group">
-          <input class="form-control" type="text" name="Name" placeholder="Name" required=""/>
+          <input class="form-control" type="text" name="Name" placeholder="Name" required="" style={{fontSize:'16px'}}/>
         </div>
         <div class="form-group">
-          <input class="form-control" type="email" name="Email" placeholder="Email" required=""/>
+          <input class="form-control" type="email" name="Email" placeholder="Email" required="" style={{fontSize:'16px'}}/>
         </div>
         {/* <div class="form-group">
           <select class="form-control" name="subject">
@@ -276,10 +289,10 @@ const Contact = () => {
       </div>
       <div class="col-md-6">
         <div class="form-group">
-          <input class="form-control" type="text" name="Phone" placeholder="Phone" required=""/>
+          <input class="form-control" type="text" name="Phone" placeholder="Phone" required="" style={{fontSize:'16px'}}/>
         </div>
         <div class="form-group">
-          <input class="form-control" type="text" name="Date" placeholder="Date" required="" id="datepicker" autocomplete="off"/>
+          <input class="form-control" type="text" name="Date" placeholder="Date" required="" id="datepicker" autocomplete="off" style={{fontSize:'16px'}}/>
           <i class="fa fa-calendar" aria-hidden="true"></i>
         </div>
         {/* <div class="form-group">
@@ -292,7 +305,7 @@ const Contact = () => {
       </div>
       <div class="col-md-12">
         <div class="form-group">
-          <textarea class="form-control" name="form_message" placeholder="Your Message" required=""></textarea>
+          <textarea class="form-control" name="form_message" placeholder="Your Message" required="" style={{fontSize:'16px'}}></textarea>
         </div>
         <div class="form-group text-center">
           <button type="submit" class="btn-style-one">submit now</button>
