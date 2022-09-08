@@ -941,10 +941,10 @@ button:focus {
     /* margin-bottom: 30px; */
   }
   .i1{
-    margin-left: 2cm;
+    margin-left: 1cm;
   }
   .media .media-body{
-    margin-left: -2cm;
+    margin-left: -3cm;
   }
 }
 .contact .address-block .media .media-body h3 {
