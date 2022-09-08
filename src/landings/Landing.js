@@ -55,9 +55,9 @@ const Landing = () => {
 </section>
 
 {/* <!--about section--> */}
-<section class="feature-section section bg-gray">
+<section class="feature-section section bg-gray" style={{marginTop:'-2.5cm'}}>
 	<div class="container">
-		<div class="row" style={{marginTop:'-2.5cm'}}>
+		<div class="row" style={{padding:'1cm'}}>
 			<div class="col-lg-12">
 				<div class="image-content">
 					<div class="section-title text-center">

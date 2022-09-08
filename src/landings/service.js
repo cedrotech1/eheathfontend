@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import Back from '../images2/3.jpg'
 // import NavBar from "./NavBar";
 
@@ -13,7 +14,7 @@ const Service = () => {
             <h1>service</h1>
             <ul class="title-menu clearfix">
                 <li>
-                    <a href="index.html">home &nbsp;/</a>
+                <Link to="/" class='nav-link' style={{color:'blue',textDecoration:'none'}}><a href="">home &nbsp;/</a></Link>
                 </li>
                 <li>service</li>
             </ul>

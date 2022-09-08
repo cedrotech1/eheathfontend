@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import Back from '../images2/3.jpg'
 // import NavBar from "./NavBar";
 
@@ -25,7 +26,7 @@ const Contact = () => {
             <h1>about us</h1>
             <ul class="title-menu clearfix">
                 <li>
-                    <a href="index.html">home &nbsp;/</a>
+                <Link to="/" class='nav-link' style={{color:'blue',textDecoration:'none'}}><a href="">home &nbsp;/</a></Link>
                 </li>
                 <li>about us</li>
             </ul>
@@ -71,7 +72,7 @@ const Contact = () => {
           {/* <!--Start single tab content--> */}
           {/* {myFunction()} */}
           <div class="tab-content" id="aboutTab" >
-            <div class="service-box tab-pane fade show active" id="dormitoryX">
+            <div class="service-box tab-pane fade show active" id="dormitory">
               <div class="row">
                 <div class="col-lg-6">
                   <img loading="lazy" class="img-fluid" src="asset/images/services/service-one.jpg" alt="service-image"/>

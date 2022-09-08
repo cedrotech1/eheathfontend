@@ -1,6 +1,7 @@
 // import React from 'react';
 import Form from './Form';
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import Back from '../images2/3.jpg'
 
 const Contact = () => {
@@ -43,7 +44,7 @@ const Contact = () => {
             <h1>Contact</h1>
             <ul class="title-menu clearfix">
                 <li>
-                    <a href="index.html">home &nbsp;/</a>
+                   <Link to="/" class='nav-link' style={{color:'blue',textDecoration:'none'}}><a href="">home &nbsp;/</a></Link>
                 </li>
                 <li>Contact</li>
             </ul>
@@ -60,7 +61,7 @@ const Contact = () => {
         <div class="address-block">
           {/* <!-- Location --> */}
           <div class="media">
-            <i class="far fa-map"></i>
+            <i class="far fa-map i1"></i>
             <div class="media-body">
               <h3>Location</h3>
               <p>kLab Road 44 KG 548 St <br/>Kigali, Rwanda</p>
@@ -68,7 +69,7 @@ const Contact = () => {
           </div>
           {/* <!-- Phone --> */}
           <div class="media">
-            <i class="fas fa-phone"></i>
+            <i class="fas fa-phone i1"></i>
             <div class="media-body">
               <h3>Phone</h3>
               <p>
@@ -80,7 +81,7 @@ const Contact = () => {
         
           {/* <!-- Email --> */}
           <div class="media">
-            <i class="far fa-envelope"></i>
+            <i class="far fa-envelope i1"></i>
             <div class="media-body">
               <h3>Email</h3>
               <p>
@@ -101,22 +102,20 @@ const Contact = () => {
 </section>
 
 {/* <div class="mapouter col-md-12"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=k_lab&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org">123movies</a><br/></div></div> */}
-       
-<section class="map">
-  {/* <!-- Google Map --> */}
-  <div id="map map-container-google-1" style={{backgroundColor:''}}  class="z-depth-1-half map-container">
-  <div class="mapouter col-md-12"><div class="gmap_canvas"><iframe width="1180" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=k_lab&t=&z=13&ie=UTF8&iwloc=&output=embed"
-   frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowfullscreen></iframe><a href="https://123movies-to.org">123movies</a><br/></div></div>
-  </div>
-
-  {/* <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
-  <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-    style="border:0" allowfullscreen></iframe>
-</div> */}
-  {/* <div class="mapouter" style={{position:'relative',textAlign:'right',height:'408px',width:'618px'}}><div class="gmap_canvas" style={{overflow:'hidden',background:'none!important',height:'408px',width:'618px'}}><iframe width="618" height="408" id="gmap_canvas" src="https://maps.google.com/maps?q=klab%20kigali&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/divi-discount/">divi discount</a><br/><style>.mapouter{}</style><a href="https://www.embedgooglemap.net">google map embed</a><style>.gmap_canvas 
-    {}</style></div></div> */}
-  <br/><br/>
-</section><br/>
+    <center> 
+      <section class="map">
+        {/* <!-- Google Map --> */}
+        <iframe width="1180" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=k_lab&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        frameborder="0" scrolling="no" marginheight="0" marginwidth="0" allowfullscreen></iframe>
+        {/* <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+        <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+          style="border:0" allowfullscreen></iframe>
+      </div> */}
+        {/* <div class="mapouter" style={{position:'relative',textAlign:'right',height:'408px',width:'618px'}}><div class="gmap_canvas" style={{overflow:'hidden',background:'none!important',height:'408px',width:'618px'}}><iframe width="618" height="408" id="gmap_canvas" src="https://maps.google.com/maps?q=klab%20kigali&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com/divi-discount/">divi discount</a><br/><style>.mapouter{}</style><a href="https://www.embedgooglemap.net">google map embed</a><style>.gmap_canvas 
+          {}</style></div></div> */}
+        
+      </section>
+</center>  
           </>
         
      );

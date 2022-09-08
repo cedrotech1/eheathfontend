@@ -1,4 +1,5 @@
 import { React, useEffect,useState} from 'react';
+import { Link } from "react-router-dom";
 import Back from '../images2/3.jpg'
 
 // https://ehealthbackend-project.herokuapp.com/api/health/blogs
@@ -90,7 +91,7 @@ const App = () => {
             <h1>Blog</h1>
             <ul class="title-menu clearfix">
                 <li>
-                    <a href="index.html">home &nbsp;/</a>
+                <Link to="/" class='nav-link' style={{color:'blue',textDecoration:'none'}}><a href="">home &nbsp;/</a></Link>
                 </li>
                 <li>Blog</li>
             </ul>
@@ -116,6 +117,7 @@ const App = () => {
           />
           
         ))}
+        <br/><br/>
       
       <div class="col-lg-1"></div>
     </div>

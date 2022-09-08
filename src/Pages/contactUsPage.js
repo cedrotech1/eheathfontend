@@ -11,8 +11,8 @@ const Home = () => {
                <NavBar/> 
            
                 <Contact/>
-                <br/><br/>
-                      <div class='footer_container' style={{marginTop:'-10cm'}}>
+                
+                      <div class='footer_container' style={{marginTop:'3.5cm'}}>
                 <Footer/>
                     </div>
 

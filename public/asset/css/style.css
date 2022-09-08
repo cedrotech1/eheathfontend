@@ -1,4 +1,15 @@
-.map-container{
+@media screen and (max-width: 800px) {
+  .z-depth-1-half{
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+}
+#gmap_canvas{
+  border:2px solid rgb(190, 228, 241);
+  /* box-shadow: 2px 2px 2px ; */
+  width: 80%;
+}
+
+/* .map-container{
   overflow:hidden;
   padding-bottom:56.25%;
   position:relative;
@@ -10,7 +21,7 @@
   height:10cm;
   width:100%;
   position:absolute;
-  }
+  } */
 .navbar-toggler-icon{
   color:red;
 }
@@ -925,9 +936,15 @@ button:focus {
 }
 @media (max-width: 767px) {
   .contact .address-block .media i {
-    flex-basis: 100%;
-    margin-right: 0;
-    margin-bottom: 30px;
+       flex-basis: 30%;
+       margin-right: 0;
+    /* margin-bottom: 30px; */
+  }
+  .i1{
+    margin-left: 2cm;
+  }
+  .media .media-body{
+    margin-left: -2cm;
   }
 }
 .contact .address-block .media .media-body h3 {
