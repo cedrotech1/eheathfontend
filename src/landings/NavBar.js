@@ -100,8 +100,8 @@ const NavBar = () => {
               <span>0782779773</span>
             </li>
           </ul>
-          <div class="link-btn text-center text-lg-right">
-            <a class="btn-style-one"><Link to="/patient_login" class='nav-link' style={{color:'blue'}}> LOGIN AS USER</Link></a>
+          <div class="link-btn text-center text-lg-right" >
+            <a class="btn-style-one" style={{backgroundColor:'darkblue'}}><Link to="/patient_login" target="_blank" class='nav-link' style={{color:'#95f5f0'}}> LOGIN AS USER</Link></a>
           </div>
         </div>
       </div>

@@ -1,11 +1,12 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Back from '../images2/3.jpg'
+import Back from '../images2/bg22.PNG'
+// import Back from '../images2/opoo.png'
 
 const Service = () => {
     return ( 
           <>
-          <section class="page-title text-center" style={{ backgroundImage:`url(${Back})`,marginTop:'-1.8cm'  }}>
+          <section class="page-title text-center" style={{ backgroundImage:`url(${Back})`,marginTop:'-0.4cm'  }}>
     <div class="container">
         <div class="title-text">
             <h1>service</h1>

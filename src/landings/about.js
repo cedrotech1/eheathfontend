@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Back from '../images2/3.jpg'
+import Back from '../images2/bg22.PNG'
+// import Back from '../images2/opoo.png'
 // import NavBar from "./NavBar";
 
 // import Footer from "./Footer";
@@ -28,7 +29,7 @@ x.style.display = 'none';
     return ( 
           <>
         
-<section class="page-title text-center"  style={{ backgroundImage:`url(${Back})`,marginTop:'-1.8cm'  }}>
+<section class="page-title text-center"  style={{ backgroundImage:`url(${Back})`,marginTop:'-0.4cm' }}>
     <div class="container">
         <div class="title-text">
             <h1>about us</h1>
@@ -70,10 +71,10 @@ x.style.display = 'none';
           {/* <!--Start single tab content--> */}
           {/* {myFunction()} */}
           <div class="tab-content" id="aboutTab" >
-            <div class="service-box tab-pane fade show active" id="dormitory">
+            <div class="service-box tab-pane fade 8show active" id="dormitory">
               <div class="row" id=''>
                 <div class="col-lg-6">
-                  <img loading="lazy" class="img-fluid" src="asset/images/services/service-one.jpg" alt="service-image"/>
+                  <img loading="lazy" class="img-fluid" src="asset/images/services/service-one.jpg"  alt="service-image"/>
                 </div>
               
               

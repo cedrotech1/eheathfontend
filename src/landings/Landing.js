@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Back from '../images2/slider-bg-1.jpg';
+import Back from '../images2/home.PNG';
 const Landing = () => {
     return ( 
           <>
           <div class="hero-slider">
   {/* <!-- Slider Item --> */}
-  <div class="slider-item slide1" style={{ backgroundImage:`url(${Back})`,marginTop:'-1.8cm' }}>
+  <div class="slider-item slide1" style={{ backgroundImage:`url(${Back})`,marginTop:'-0.4cm' }}>
     <div class="container">
       <div class="row">
         <div class="col-12">

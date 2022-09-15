@@ -38,7 +38,7 @@ import './user.css';
             </div>
             {/* <!-- submit button --> */}
             <div class="col-md-12 text-right">
-              <button class="btn btn-style-one btn-bg-blue" type="submit" style={{backgroundColor:'skyblue',width:'3cm'}} onSubmit={handleOnSubmit}>Send Message</button>
+              <button class="btn btn-style-one btn-bg-blue" type="submit" style={{backgroundColor:'skyblue',width:'5cm'}} onSubmit={handleOnSubmit}>Send Message</button>
             </div>
           </form>
           {/* <!-- contact form end --> */}

@@ -2,7 +2,7 @@
 import Form from './Form';
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Back from '../images2/3.jpg'
+import Back from '../images2/bg22.PNG'
 
 const Contact = () => {
 
@@ -38,7 +38,7 @@ const Contact = () => {
   };
     return ( 
           <>
-<section class="page-title text-center contactMes" style={{ backgroundImage:`url(${Back})`,marginTop:'-1.8cm'  }}>
+<section class="page-title text-center contactMes" style={{ backgroundImage:`url(${Back})`,marginTop:'-0.4cm'  }}>
     <div class="container">
         <div class="title-text">
             <h1>Contact</h1>
