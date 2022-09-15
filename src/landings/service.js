@@ -6,7 +6,7 @@ import Back from '../images2/bg22.PNG'
 const Service = () => {
     return ( 
           <>
-          <section class="page-title text-center" style={{ backgroundImage:`url(${Back})`,marginTop:'-0.4cm'  }}>
+          <section class="page-title text-center" style={{ backgroundImage:`url(${Back})`,marginTop:'-1.8cm'  }}>
     <div class="container">
         <div class="title-text">
             <h1>service</h1>

@@ -29,7 +29,7 @@ x.style.display = 'none';
     return ( 
           <>
         
-<section class="page-title text-center"  style={{ backgroundImage:`url(${Back})`,marginTop:'-0.4cm' }}>
+<section class="page-title text-center"  style={{ backgroundImage:`url(${Back})`,marginTop:'-1.8cm' }}>
     <div class="container">
         <div class="title-text">
             <h1>about us</h1>

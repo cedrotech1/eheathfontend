@@ -38,7 +38,7 @@ const Contact = () => {
   };
     return ( 
           <>
-<section class="page-title text-center contactMes" style={{ backgroundImage:`url(${Back})`,marginTop:'-0.4cm'  }}>
+<section class="page-title text-center contactMes" style={{ backgroundImage:`url(${Back})`,marginTop:'-1.8cm'  }}>
     <div class="container">
         <div class="title-text">
             <h1>Contact</h1>
