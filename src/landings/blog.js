@@ -1,11 +1,8 @@
 import { React, useEffect,useState} from 'react';
 import { Link } from "react-router-dom";
 import Back from '../images2/3.jpg'
-
-// https://ehealthbackend-project.herokuapp.com/api/health/blogs
-// import AddUser from "./addUser";
 import User from "./user";
-//import axios  from "axios";
+
 
 const App = () => {
   const [users, setUsers] = useState([]);
@@ -85,7 +82,7 @@ const App = () => {
   console.log(users);
   return (
     <>
-    <section class="page-title text-center" style={{ backgroundImage:`url(${Back})`,marginTop:'-0.54cm'  }}>
+    <section class="page-title text-center" style={{ backgroundImage:`url(${Back})`,marginTop:'-1.8cm'  }}>
     <div class="container">
         <div class="title-text">
             <h1>Blog</h1>

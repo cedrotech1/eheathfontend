@@ -1,14 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import Back from '../images2/3.jpg'
-// import NavBar from "./NavBar";
 
-// import Footer from "./Footer";
-import 'bootstrap/dist/css/bootstrap.css';
 const Service = () => {
     return ( 
           <>
-          <section class="page-title text-center" style={{ backgroundImage:`url(${Back})`,marginTop:'-0.54cm'  }}>
+          <section class="page-title text-center" style={{ backgroundImage:`url(${Back})`,marginTop:'-1.8cm'  }}>
     <div class="container">
         <div class="title-text">
             <h1>service</h1>
@@ -24,7 +21,7 @@ const Service = () => {
 
 
 
-<section class="testimonial-section" style={{backgroundColor:'white'}}>
+<section class="testimonial-section" style={{backgroundColor:'whitesmoke'}}>
   <div class="container">
     <div class="row" style={{marginTop:'-1.5cm'}}>
       <div class="col-lg-12">

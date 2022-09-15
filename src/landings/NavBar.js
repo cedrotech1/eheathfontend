@@ -1,7 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './nav.css'
 
 const NavBar = () => {
+
+  function Display() {
+    // document.getElementById("ul").style.display = "block";
+
+    var x = document.getElementById('ul');
+    if (x.style.display === 'none') {
+      x.style.display = 'block';
+    } else {
+      x.style.display = 'none';
+    }
+  }
     return ( 
 <>
        
@@ -96,9 +108,26 @@ const NavBar = () => {
     </div>
   </div>
 </section>
-
-<nav class="navbar navbar-expand-lg navbar-dark flex-column" style={{backgroundColor:''}}>
-  <div class="container">
+<section>
+<nav class="mynav">
+      <input type="checkbox" id="check"/>
+      <label for="check" class="checkbtn" onClick={Display}>
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">E-HELTHY</label>
+      <ul class='ul' id='ul'>
+        <li><Link to="/"><a class="" href="" style={{textDecoration:'none'}}>Home</a></Link></li>
+        <li><Link to="/about"><a href="">About</a></Link></li>
+        <li><Link to="/service"><a href="">Services</a></Link></li>
+        <li><Link to="/blog"><a href="">Blog</a></Link></li>
+        <li><Link to="/contact"><a href="">Contact</a></Link></li>
+      </ul>
+    </nav>
+    </section>
+    {/* <section></section> */}
+<section class="sec">
+<nav class="navbar" style={{backgroundColor:'',width:'100%',marginTop:'0.2cm'}}>
+  {/* <div class="container">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarLinks" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -124,8 +153,9 @@ const NavBar = () => {
         </ul>
     </b> 
     </div>
-  </div>
+  </div> */}
 </nav>
+</section>
 </>
      );
 }

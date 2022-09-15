@@ -1,14 +1,13 @@
-@media screen and (max-width: 800px) {
-  .z-depth-1-half{
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-}
+
 #gmap_canvas{
   border:2px solid rgb(190, 228, 241);
   /* box-shadow: 2px 2px 2px ; */
   width: 80%;
 }
 
+body{
+  background-color: #95f5f0;
+}
 /* .map-container{
   overflow:hidden;
   padding-bottom:56.25%;
@@ -505,7 +504,7 @@ li {
   margin-left: 20px;
   margin-top: 5px;
 }
-
+/* 
 .navbar {
   margin-bottom: 0;
   background: #c1f6fa;
@@ -533,14 +532,16 @@ li {
     padding: 4px 18px !important;
     text-align: center;
     color:black;
-    /* font-family:; */
+    font-family:;
     
   }
 }
+
+
 .navbar .navbar-nav li > .nav-link:hover {
-  /* color: rgb(236, 47, 136); */
+  color: rgb(236, 47, 136);
   opacity: 0.7;
-  /* border-bottom: 4px solid blue; */
+  border-bottom: 4px solid blue;
   transition: 1s;
 }
 .navbar .navbar-nav li.active > a {
@@ -582,7 +583,7 @@ li {
   .navbar .dropdown-menu .dropdown-item {
     padding-top: 5px;
     padding-bottom: 5px;
-    /* color:red */
+    color:red
   }
 
   .navbar .dropdown:hover > .dropdown-menu {
@@ -600,7 +601,7 @@ li {
     padding: 0;
   }
 }
-.dropdown-menu li:first-child {
+ .dropdown-menu li:first-child {
   margin-top: 10px;
 }
 .dropdown-menu li:last-child {
@@ -663,7 +664,7 @@ li {
   padding-left: 8px;
   padding-right: 8px;
   margin: 6px auto;
-}
+}  */
 
 button:focus {
   outline: 0;
@@ -689,6 +690,7 @@ button:focus {
 .accordion-section .accordion-holder .card .card-header h4 {
   position: relative;
 }
+
 .accordion-section .accordion-holder .card .card-header h4 a {
   font-weight: bold;
   font-family: "Source Sans Pro", sans-serif;

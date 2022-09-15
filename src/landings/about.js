@@ -8,19 +8,27 @@ import 'bootstrap/dist/css/bootstrap.css';
 const Contact = () => {
 
   function myFunction() {
-     var x = document.getElementById("dormitoryX");
-     x.style.display='block';
-    // if (x.style.display === "none") {
-    //   x.style.display = "block";
-    // } else {
-    //   x.style.display = "none";
-    // }
-    // alert('hello fr');
+        var x = document.getElementById('x');
+     x.style.display = 'none';
+
   }
+  function myFunction1() {
+    // alert('1');
+    var yes = document.getElementById('cl');
+ yes.style.display = 'none';
+
+
+}
+function myFunction2() {
+  var x = document.getElementById('cl');
+x.style.display = 'none';
+
+}
   // myFunction();
     return ( 
           <>
-<section class="page-title text-center"  style={{ backgroundImage:`url(${Back})`,marginTop:'-0.54cm'  }}>
+        
+<section class="page-title text-center"  style={{ backgroundImage:`url(${Back})`,marginTop:'-1.8cm'  }}>
     <div class="container">
         <div class="title-text">
             <h1>about us</h1>
@@ -34,16 +42,6 @@ const Contact = () => {
     </div>
 </section>
 
-
-{/* <!-- Promo Video --> */}
-
-
-
-
-{/* <!-- Contact Section --> */}
-
-
-
 <section class="service-tab-section section">
   <div class="outer-box clearfix">
     <div class="container">
@@ -53,13 +51,13 @@ const Contact = () => {
           <div class="tabs mb-5">
             <ul class="nav nav-tabs justify-content-center" id="aboutTab" role="tablist">
               <li class="nav-item" role="presentation" >
-                <a class="nav-link active" id="dormitory-tab"  data-toggle="tab" href="#dormitory" role="tab" aria-controls="dormitory" aria-selected="true" onclick="myFunction()">our story</a>
+                <a class="nav-link active" id="dormitory-tab"  data-toggle="tab" href="#dormitory" role="tab" aria-controls="dormitory" aria-selected="true" onClick={myFunction}>our story</a>
               </li>
               <li class="nav-item" role="presentation">
-                <a class="nav-link" id="orthopedic-tab" data-toggle="tab" href="#orthopedic" role="tab" aria-controls="orthopedic" aria-selected="false">vision</a>
+                <a class="nav-link" id="orthopedic-tab" data-toggle="tab" href="#orthopedic" role="tab" aria-controls="orthopedic" aria-selected="false" onClick={myFunction1}>vision</a>
               </li>
               <li class="nav-item" role="presentation">
-                <a class="nav-link" id="sonogram-tab"  data-toggle="tab" href="#sonogram" role="tab" aria-controls="sonogram" aria-selected="false">Mission</a>
+                <a class="nav-link" id="sonogram-tab"  data-toggle="tab" href="#sonogram" role="tab" aria-controls="sonogram" aria-selected="false" onClick={myFunction2}>Mission</a>
               </li>
               {/* <li class="nav-item" role="presentation">
                 <a class="nav-link" id="x-ray-tab" data-toggle="tab" href="#x-ray" role="tab" aria-controls="x-ray" aria-selected="false">x-ray</a>
@@ -73,10 +71,12 @@ const Contact = () => {
           {/* {myFunction()} */}
           <div class="tab-content" id="aboutTab" >
             <div class="service-box tab-pane fade show active" id="dormitory">
-              <div class="row">
+              <div class="row" id=''>
                 <div class="col-lg-6">
                   <img loading="lazy" class="img-fluid" src="asset/images/services/service-one.jpg" alt="service-image"/>
                 </div>
+              
+              
                 <div class="col-lg-6">
                   <div class="contents">
                     <div class="section-title">
@@ -173,6 +173,48 @@ const Contact = () => {
          
             {/* <!--End single tab content--> */}
           </div>
+
+
+
+
+          <div class="tab-content" id="aboutTab x" style={{marginTop:'-14cm'}}>
+          <div class="" id="">
+              <div class="row" id='cl'>
+                <div class="col-lg-6">
+                  <img loading="lazy" class="img-fluid" src="asset/images/services/service-one.jpg" alt="service-image" style={{borderRadius:'0.5cm'}}/>
+                </div>
+              
+              
+                <div class="col-lg-6" id='cl cl2 cl3'>
+                  <div class="contents">
+                    <div class="section-title">
+                      <h3>Our Story</h3><br/><br/>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="story-content">
+                        {/* <h2></h2> */}
+                        <h5 class="tagline">"to digitolise patient information is purpuse of our web application "</h5>
+                        <br/>
+
+                          <p>Its web application which will help patients  to access hospitals information 
+                            and his/her treatment information across the country but only where he/she uses
+                             their services(treatment).
+                             <br/> <br/>
+                             In a breathly patient will have to view his information and view a  historic(report) of hospital name,dates, tests,medicines he made and the doctor who made that operation.
+                              </p>
+
+
+                      </div>
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+
+
         </div>
       </div>
     </div>
