@@ -54,9 +54,9 @@ const Footer = () => {
               </li>
             </ul>
             <ul class="list-inline social-icons">
-              <li class="list-inline-item"><a href="https://www.facebook.com/klabrw/" aria-label="facebook"><i class="fab fa-facebook-f"></i></a></li>
-              <li class="list-inline-item"><a href="https://twitter.com/klabrw?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" aria-label="twitter"><i class="fab fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a href="https://www.instagram.com/accounts/login/?next=/klabrwanda/" aria-label="instagram"><i class="fab fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.facebook.com/klabrw/" aria-label="facebook" style={{backgroundColor:'skyblue'}}><i class="fab fa-facebook-f" style={{height:'1cm'}}></i></a></li>
+              <li class="list-inline-item"><a href="https://twitter.com/klabrw?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" aria-label="twitter" style={{backgroundColor:'skyblue'}}><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.instagram.com/accounts/login/?next=/klabrwanda/" aria-label="instagram" style={{backgroundColor:'skyblue'}}><i class="fab fa-instagram"></i></a></li>
              
             </ul>
           </div>
@@ -66,7 +66,7 @@ const Footer = () => {
           <ul class="menu-link">
             <li>
               <Link to="/" class='nav-link'> 
-                  <i class="fa fa-angle-right" aria-hidden="true">Home</i>
+                  <i class="fa fa-angle-right" aria-hidden="true" ></i>Home
               </Link>
             </li>
             <li>

@@ -31,7 +31,7 @@ const NavBar = () => {
         <div class="top-right text-center text-md-right">
           <ul class="social-links">
             <li>
-              <a href="https://www.facebook.com/klabrw/" aria-label="facebook">
+              <a href="https://10bc-197-243-89-36.eu.ngrok.io/" aria-label="facebook">
                 <i class="fab fa-facebook-f"></i>
               </a>
             </li>
@@ -101,7 +101,7 @@ const NavBar = () => {
             </li>
           </ul>
           <div class="link-btn text-center text-lg-right" >
-            <a class="btn-style-one" style={{backgroundColor:'darkblue'}}><Link to="/patient_login" target="_blank" class='nav-link' style={{color:'#95f5f0'}}> LOGIN AS USER</Link></a>
+            <a class="btn-style-one" style={{backgroundColor:'darkblue',textDecoration:'none'}} href='https://10bc-197-243-89-36.eu.ngrok.io/'> LOGIN AS USER</a>
           </div>
         </div>
       </div>

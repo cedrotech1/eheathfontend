@@ -2,7 +2,8 @@
 import Form from './Form';
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Back from '../images2/bg22.PNG'
+import Back from '../images2/opoo.png';
+// import Back from '../images2/bg22.PNG'
 
 const Contact = () => {
 
@@ -22,14 +23,17 @@ const Contact = () => {
       },
     })
       .then((res) => {
+        alert('well done');
         if (res.status !== 201) {
           return;
         } else {
           return res.json();
         }
       })
-      .then((data) => {
+      .then((data) => { 
+        alert('well done');
         setUsers((users) => [...users, data]);
+       
         alert(data);
       })
       .catch((err) => {
@@ -38,7 +42,7 @@ const Contact = () => {
   };
     return ( 
           <>
-<section class="page-title text-center contactMes" style={{ backgroundImage:`url(${Back})`,marginTop:'-1.8cm'  }}>
+<section class="page-title text-center contactMes" style={{ backgroundImage:`url(${Back})`,marginTop:'-1.8cm'}}>
     <div class="container">
         <div class="title-text">
             <h1>Contact</h1>
